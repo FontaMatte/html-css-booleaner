@@ -1,11 +1,27 @@
 header {
     background-image: url(../img/pattern.png);
     width: 100%;
-    height: 150px;
+    height: 100px;
     background-size: contain;
     background-color:rgb(77,160,255);
 }
 
 #logo_header {
-    width: 20%;
+    width: 25%;
+}
+
+#autore {
+    color: rgb(77,160,255);
+}
+
+#article_date {
+    font-size: 12px;
+}
+
+#photo_description {
+    font-size: 10px;
+}
+
+#text_mark {
+    background-color: yellow;
 }
