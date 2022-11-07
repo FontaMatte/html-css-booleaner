@@ -22,6 +22,14 @@ header {
     font-size: 10px;
 }
 
-#text_mark {
+.text_mark {
     background-color: yellow;
+}
+
+#table_header {
+    background-color:rgb(77,160,255) ;
+}
+
+.table_row_blue {
+    background-color: lightblue;
 }
