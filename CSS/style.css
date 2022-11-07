@@ -7,10 +7,20 @@ header {
 }
 
 #logo_header {
-    width: 25%;
+    margin-top:20px ;
+    width: 20%;
 }
 
-#autore {
+h1 {
+    margin-bottom: 0;
+}
+
+#author_and_data {
+    color:rgb(171,171,171);
+    margin-bottom: 20px;
+}
+
+#author {
     color: rgb(77,160,255);
 }
 
@@ -28,8 +38,41 @@ header {
 
 #table_header {
     background-color:rgb(77,160,255) ;
+    color: white;
+    text-align: left;
+}
+
+table {
+    border-spacing: 0;
 }
 
 .table_row_blue {
     background-color: lightblue;
 }
+
+#photo_footer1 {
+    background-image: url(../img/monitor.jpg);
+    width: 312px;
+    height: 208px;
+    margin-bottom: 15px;
+}
+
+#photo_footer2 {
+    background-image: url(../img/graph.jpg);
+    width: 312px;
+    height: 208px; 
+}
+
+#photo_footer1,#photo_footer2 {
+    color: white;
+    font-size: 30px;
+}
+
+#footer_pagina {
+    color:grey;
+}
+
+#title_photo,table,h3,#unordered_list,#main_text,#last_text {
+    margin-top: 20px;
+}
+
